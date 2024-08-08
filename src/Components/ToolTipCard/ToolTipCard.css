@@ -38,3 +38,7 @@
     background-color: red;
     border-radius: 4px;
 }
+
+.square.blue {
+    background-color: blue;
+}
