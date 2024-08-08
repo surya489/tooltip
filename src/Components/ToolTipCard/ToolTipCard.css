@@ -1,0 +1,40 @@
+.tooltip_card_wrap {
+    width: 33.33%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.tooltip_card {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 0px #1f1f1f;
+}
+
+.content {
+    display: block;
+    padding: 10px;
+}
+
+.body,
+.totalValue {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.body .square {
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 4px;
+}
