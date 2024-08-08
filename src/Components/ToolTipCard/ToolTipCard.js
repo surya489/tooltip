@@ -37,7 +37,7 @@ const ToolTipCard = ({ date, title, bodyItems, total, totalValue, extension }) =
                             <span className="total">Total</span>
                             <span className="total_value">
                                 {totalValue}
-                                {extension && <span>{extension}</span>}
+                                {extension && <span className="extnsn">{extension}</span>}
                             </span>
                         </div>
                     )}
