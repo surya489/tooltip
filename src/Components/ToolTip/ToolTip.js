@@ -10,27 +10,69 @@ const ToolTip = () => {
                 <ToolTipCard
                     date="2024-07-16"
                     bodyItems={[
-                        { color: 'red', square: true, text: 'Running', value: '380' },
-                        { color: 'blue', square: true, text: 'Cycling', value: '120' }
+                        { color: 'blue', square: true, text: 'Running', value: '380' },
+                        { color: 'red', square: true, text: 'Swimming', value: '120' }
                     ]}
                 />
                 <ToolTipCard
-                    title="Activities"
+                    date="2024-07-16"
                     bodyItems={[
-                        { color: 'green', square: true, text: 'Swimming', value: '250' },
-                        { color: 'yellow', square: true, text: 'Hiking', value: '450' }
+                        { color: 'blue', square: true, text: 'Running', value: '250' },
+                        { color: 'red', square: true, text: 'Swimming', value: '450' }
                     ]}
-                    totalValue="700"
-                    total
                 />
                 <ToolTipCard
-                    title="Activities"
+                    date="2024-07-16"
                     bodyItems={[
-                        { color: 'orange', square: true, text: 'Yoga', value: '150' }
+                        { text: 'Running', value: '150' },
+                        { text: 'Swimming', value: '150' }
+                    ]}
+                />
+                <ToolTipCard
+                    bodyItems={[
+                        { text: 'Running', value: '150' },
+                        { text: 'Swimming', value: '150' }
+                    ]}
+                />
+                <ToolTipCard
+                    bodyItems={[
+                        { text: 'Running', value: '150' },
+                        { text: 'Swimming', value: '150' }
+                    ]}
+                />
+                <ToolTipCard
+                    bodyItems={[
+                        { text: 'Running', value: '150', icon: 'run' },
+                        { text: 'Swimming', value: '150', icon: 'swim' }
+                    ]}
+                />
+                <ToolTipCard
+                    bodyItems={[
+                        { color: 'blue', square: true, text: 'Running', value: '150' },
+                        { color: 'red', square: true, text: 'Swimming', value: '150' }
                     ]}
                     totalValue="150"
                     total
                     extension="KCal"
+                />
+                <ToolTipCard
+                    title="Activities"
+                    bodyItems={[
+                        { color: 'blue', square: true, text: 'Running', value: '150' },
+                        { color: 'red', square: true, text: 'Swimming', value: '150' }
+                    ]}
+                />
+                <ToolTipCard
+                    date="2024-07-16"
+                    bodyItems={[
+                        { color: 'blue', square: true, text: 'Running', value: '150' },
+                        { color: 'red', square: true, text: 'Swimming', value: '150' }
+                    ]}
+                />
+                <ToolTipCard
+                    bodyItems={[
+                        { color: 'blue', square: true, text: 'Running', value: '150' }
+                    ]}
                 />
             </div>
         </Center>

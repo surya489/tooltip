@@ -4,4 +4,5 @@
     height: 100%;
     overflow: hidden;
     padding: 100px;
+    max-width: 600px;
 }
