@@ -96,9 +96,14 @@
 }
 
 .tooltip_card .value {
-    font-size: 1.2rem;
+    font-size: 14px;
     font-weight: bold;
-    color: #000;
+    color: #333;
+    transition: color .3s;
+}
+
+.tooltip_card .value:hover {
+    color: #007bff;
 }
 
 .icon {
@@ -116,16 +121,15 @@
     color: #444;
 }
 
-.tooltip_card .value {
-    font-size: 14px;
-    font-weight: bold;
-    color: #333;
-}
-
 .totalValue .extnsn {
     padding-left: 4px;
     color: #666;
     font-size: 12px;
+}
+
+.tooltip_card .icon:hover {
+    transform: scale(1.1);
+    color: #ff6f61;
 }
 
 @media(max-width: 740px) {
